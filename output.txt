@@ -1,0 +1,1208 @@
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.gitignore------
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>t-one-ttask-three-starter</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Archetype - t-one-ttask-three-starter</name>
+  <url>http://maven.apache.org</url>
+  <modules>
+    <module>authApp</module>
+    <module>auth-starter</module>
+    <module>application</module>
+  </modules>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.idea/.gitignore------
+
+# Default ignored files
+/shelf/
+/workspace.xml
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.idea/compiler.xml------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/authApp/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/auth-starter/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/application/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="application" />
+        <module name="authApp" />
+        <module name="auth-starter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.idea/encodings.xml------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authApp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.idea/jarRepositories.xml------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+</project>
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.idea/misc.xml------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.idea/vcs.xml------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings" defaultProject="true" />
+</project>
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/.idea/workspace.xml------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f95e7b2f-ceeb-4b90-8535-b25eb9b3b23a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2pcdlcM8a1x15Q2nEpY4KlD7RIq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Mail.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.org.example.Main.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.application [clean].executor": "Run",
+    "Maven.application [install].executor": "Run",
+    "Maven.application [package].executor": "Run",
+    "Maven.auth-starter [clean].executor": "Run",
+    "Maven.auth-starter [install].executor": "Run",
+    "Maven.authApp [clean].executor": "Run",
+    "Maven.authApp [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-starter/src/main/resources/META-INF/maven" />
+      <recent name="$PROJECT_DIR$/auth-starter/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.example.Main">
+    <configuration name="Mail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mail" />
+      <module name="authApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="auth-starter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.example.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Mail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f95e7b2f-ceeb-4b90-8535-b25eb9b3b23a" name="Changes" comment="" />
+      <created>1733069454587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733069454587</updated>
+    </task>
+    <servers />
+  </component>
+</project>
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>t-one-ttask-three-starter</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>application</artifactId>
+    <name>Archetype - application</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+        <version>3.3.5</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.example</groupId>
+        <artifactId>auth-starter</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/java/org/example/Main.java------
+
+package org.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Main {
+    public static void main(String[] args) {
+        SpringApplication.run(Main.class,args);
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/java/org/example/service/MainService.java------
+
+package org.example.service;
+
+import com.example.service.Authenticator;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Service;
+
+@Service
+public class MainService implements CommandLineRunner {
+    private final Authenticator authenticator;
+
+    public MainService(Authenticator authenticator) {
+        this.authenticator = authenticator;
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+        if (authenticator.checkCredentials("root","0000")){
+            System.out.println("Да");
+        } else {
+            System.out.println("Нет");
+        }
+
+        if (authenticator.checkCredentials("root","9999")){
+            System.out.println("Да");
+        } else {
+            System.out.println("Нет");
+        }
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/resources/application.yml------
+
+auth:
+  enabled: true
+  credentials:
+    root: 9999
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/resources/archetype-resources/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>$org.example</groupId>
+  <artifactId>$application</artifactId>
+  <version>$1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/resources/archetype-resources/src/main/java/App.java------
+
+package $org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/resources/archetype-resources/src/test/java/AppTest.java------
+
+package $org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/resources/META-INF/maven/archetype.xml------
+
+<archetype>
+  <id>application</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/classes/application.yml------
+
+auth:
+  enabled: true
+  credentials:
+    root: 9999
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/classes/archetype-resources/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>$org.example</groupId>
+  <artifactId>$application</artifactId>
+  <version>$1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/classes/archetype-resources/src/main/java/App.java------
+
+package $org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/classes/archetype-resources/src/test/java/AppTest.java------
+
+package $org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/classes/META-INF/maven/archetype.xml------
+
+<archetype>
+  <id>application</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/maven-archiver/pom.properties------
+
+artifactId=application
+groupId=org.example
+version=1.0-SNAPSHOT
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst------
+
+org/example/Main.class
+org/example/service/MainService.class
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst------
+
+/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/java/org/example/Main.java
+/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/application/src/main/java/org/example/service/MainService.java
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>t-one-ttask-three-starter</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>auth-starter</artifactId>
+    <name>Archetype - auth-starter</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>3.3.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>authApp</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>17</source> <!-- Убедитесь, что у вас указана версия Java 17 или выше -->
+                    <target>17</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/java/Main.java------
+
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/java/org/example/marat/AuthAutoConfiguration.java------
+
+package org.example.marat;
+
+import com.example.service.Authenticator;
+import com.example.service.AuthenticatorConfig;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@Configuration
+@EnableConfigurationProperties(AuthProperties.class)  // Активируем биндинг свойств
+public class AuthAutoConfiguration {
+    private final AuthProperties authProperties;
+
+    public AuthAutoConfiguration(AuthProperties authProperties) {
+        this.authProperties = authProperties;
+    }
+
+
+    @Bean
+    @ConditionalOnProperty(name = "auth.enabled", havingValue = "true", matchIfMissing = true)
+    public Authenticator authenticator(AuthenticatorConfig config){
+        return new Authenticator(config);
+    }
+
+    @Bean AuthenticatorConfig authenticatorConfig(){
+        Map<String,String> correctCredentials = authProperties.getCredentials();
+        if (correctCredentials == null || correctCredentials.isEmpty()){
+            correctCredentials= new HashMap<>();
+            correctCredentials.put("root","0000");
+        }
+        return new AuthenticatorConfig(correctCredentials);
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/java/org/example/marat/AuthProperties.java------
+
+package org.example.marat;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.Map;
+
+@ConfigurationProperties(prefix = "auth")
+public class AuthProperties {
+    private Map<String,String> credentials;
+
+    public Map<String, String> getCredentials() {
+        return credentials;
+    }
+
+    public void setCredentials(Map<String, String> credentials) {
+        this.credentials = credentials;
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/resources/archetype-resources/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>$org.example</groupId>
+  <artifactId>$auth-starter</artifactId>
+  <version>$1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/resources/archetype-resources/src/main/java/App.java------
+
+package $org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/resources/archetype-resources/src/test/java/AppTest.java------
+
+package $org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/resources/META-INF/spring.factories------
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.example.marat.AuthAutoConfiguration
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/target/classes/archetype-resources/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>$org.example</groupId>
+  <artifactId>$auth-starter</artifactId>
+  <version>$1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/target/classes/archetype-resources/src/main/java/App.java------
+
+package $org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/target/classes/archetype-resources/src/test/java/AppTest.java------
+
+package $org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/target/classes/META-INF/spring.factories------
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.example.marat.AuthAutoConfiguration
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/target/maven-archiver/pom.properties------
+
+artifactId=auth-starter
+groupId=org.example
+version=1.0-SNAPSHOT
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst------
+
+Main.class
+org/example/marat/AuthProperties.class
+org/example/marat/AuthAutoConfiguration.class
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst------
+
+/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/java/Main.java
+/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/java/org/example/marat/AuthAutoConfiguration.java
+/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/auth-starter/src/main/java/org/example/marat/AuthProperties.java
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>t-one-ttask-three-starter</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>authApp</artifactId>
+    <name>Archetype - authApp</name>
+    <url>http://maven.apache.org</url>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/java/com/example/service/Authenticator.java------
+
+package com.example.service;
+
+public class Authenticator {
+    private final AuthenticatorConfig config;
+
+    public Authenticator(AuthenticatorConfig config) {
+        this.config = config;
+    }
+    public boolean checkCredentials(String username, String password){
+        if (config.getCorrectCredentials().containsKey(username)){
+            return password.equals(config.getCorrectCredentials().get(username));
+        } else return false;
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/java/com/example/service/AuthenticatorConfig.java------
+
+package com.example.service;
+
+import java.util.Map;
+
+public class AuthenticatorConfig {
+    private final Map<String,String> correctCredentials;
+
+    public AuthenticatorConfig(Map<String, String> correctCredentials) {
+        this.correctCredentials = correctCredentials;
+    }
+
+    public Map<String, String> getCorrectCredentials() {
+        return correctCredentials;
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/resources/archetype-resources/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>$org.example</groupId>
+  <artifactId>$authApp</artifactId>
+  <version>$1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/resources/archetype-resources/src/main/java/App.java------
+
+package $org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/resources/archetype-resources/src/test/java/AppTest.java------
+
+package $org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/resources/META-INF/maven/archetype.xml------
+
+<archetype>
+  <id>authApp</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/target/classes/archetype-resources/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>$org.example</groupId>
+  <artifactId>$authApp</artifactId>
+  <version>$1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/target/classes/archetype-resources/src/main/java/App.java------
+
+package $org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/target/classes/archetype-resources/src/test/java/AppTest.java------
+
+package $org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/target/classes/META-INF/maven/archetype.xml------
+
+<archetype>
+  <id>authApp</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/target/maven-archiver/pom.properties------
+
+artifactId=authApp
+groupId=org.example
+version=1.0-SNAPSHOT
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst------
+
+com/example/service/Authenticator.class
+com/example/service/AuthenticatorConfig.class
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst------
+
+/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/java/com/example/service/Authenticator.java
+/media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/authApp/src/main/java/com/example/service/AuthenticatorConfig.java
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/src/main/resources/archetype-resources/pom.xml------
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>$org.example</groupId>
+  <artifactId>$t-one-ttask-three-starter</artifactId>
+  <version>$1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/src/main/resources/archetype-resources/src/main/java/App.java------
+
+package $org.example;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/src/main/resources/archetype-resources/src/test/java/AppTest.java------
+
+package $org.example;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+}
+
+
+------File: /media/marat/D/бэкап всего/второй раз/IdeaProjects/t-one-ttask-three-starter/src/main/resources/META-INF/maven/archetype.xml------
+
+<archetype>
+  <id>t-one-ttask-three-starter</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

@@ -1,0 +1,4 @@
+auth:
+  enabled: true
+  credentials:
+    root: 9999
